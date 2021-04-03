@@ -127,7 +127,9 @@ ol li
 { width: 900px;
   height: 72px;
   padding: 0;
-  background: #1293EE;} 
+  background: #1293EE;
+margin-top: 15px;
+margin-bottom: auto;} 
 
 ul#menu, ul#menu li
 { float: left;
