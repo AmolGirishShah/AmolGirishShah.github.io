@@ -29,7 +29,7 @@ The Galton board, also known as a quincunx or bean machine, is a device for stat
 <p>
 Each time a ball hits one of the nails, it can bounce right (or left) with some probability p (and q=1-p). For symmetrically placed nails, balls will bounce left or right with equal probability, so p=q=1/2. If the rows are numbered from 0 to N-1, the path of each falling ball is a Bernoulli trial consisting of N steps.
 Each ball crosses the bottom row hitting the nth peg from the left (where 0<=n<=N-1) iff it has taken exactly n right turns, which occurs with probability
-\normal {\( P_p(n|N)= {n \choose x}*p^nq^{N-n} \)}
+\( \normal { P_p(n|N)= {n \choose x}*p^nq^{N-n}} \)
 <p>
 This process therefore gives rise to a <a href="https://en.wikipedia.org/wiki/Binomial_distribution">binomial
 distribution</a> of in the heights of heaps of balls in the lower slots.
